@@ -1,0 +1,26 @@
+h1{
+    font-size: 65px;
+    }
+
+body{
+        background-color: #686A6C ;
+    }
+
+.Markalar{
+    font-size: 30px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke: 1%;
+}
+
+#Kawasaki{
+    color: green;
+    }
+
+#Yamaha{
+    color: blue;
+}
+
+#Ducati{
+    color: red;
+}
