@@ -1,0 +1,12 @@
+.p1{
+    background-color: teal;
+}
+
+.p2{
+    height: 1000px;
+    background-image: url("../images/lorem.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    /* background-position: right top; gibi kodlarla img konumunu belirleyebiliyoruz.*/
+}
