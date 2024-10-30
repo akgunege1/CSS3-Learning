@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Styles</title>
+    <style>
+
+        body{
+            cursor: help;
+
+            /* Cursor tablosundan değişik mouse imleçleri ayarlanabilir*/
+        }
+    .a{
+        list-style-type:lower-greek ;
+    }
+
+    .b{
+        list-style-type: circle ;
+    }
+
+    .c{
+        list-style-type: decimal;
+    }
+
+    table{ 
+        border: 20px solid red;
+        caption-side:bottom;
+        border-spacing: 10px 10px;
+        width: 250px;
+        height: 250px;
+        border-collapse: separate;
+        empty-cells: hide;
+        table-layout: fixed;
+    }
+
+    table tr th{
+        border: 2px solid turquoise;
+    }
+
+
+    a{
+        text-decoration: none;
+        color: black;
+        transition: purple 1s linear;
+    }
+
+    a:link{
+        color:red;
+    }
+    a:visited{
+        color: teal;
+    }
+    a:hover{
+        color:green;
+    }
+    </style>
+</head>
+<body>
+
+    <!-- Background-image ile kendi logounuz veya dilediğiniz logoyu liste göstergesi olarak ayarlayabilirisiniz.-->
+    <!-- list style biraz , background'a benziyor. Çoğu aynı özelliği taşıyor.-->
+    <ul class="a">
+        <li>1. Eleman</li>
+        <li>2. Eleman</li>
+        <li>3. Eleman</li>
+    </ul>
+
+    <ul class="b">
+        <li>1. Eleman</li>
+        <li>2. Eleman</li>
+        <li>3. Eleman</li>
+
+    </ul>
+    <ul class="c">
+        <li>1. Eleman</li>
+        <li>2. Eleman</li>
+        <li>3. Eleman</li>
+
+    </ul>
+    <table>
+        <caption>Renk Tablosu
+        </caption>
+        <tr>
+            <th style="position: center;">Kirmizi</th>
+            <th>Yeşil</th>
+            <th>Teal</th>
+        </tr>
+        <tr>
+            <th>Sarı</th>
+            <th>Lacivert</th>
+            <th>Mor</th>
+        </tr>
+    </table>
+        <a href="https://www.google.com/?client=safari"> Google'a git!</a>
+</body>
+</html>
