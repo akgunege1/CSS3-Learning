@@ -1,0 +1,25 @@
+div{
+    width: 1330px;
+    height: 500px;
+    border: 40px black;
+    border-bottom: none;
+    margin-right: 50px;
+    border-style: groove;
+    border-radius: 15px;
+    
+}
+
+h1{
+    padding-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+p{
+    padding-left: 50px;
+}
+
+.deneme{
+    border: 4px groove black;
+    padding: 0px;
+}
