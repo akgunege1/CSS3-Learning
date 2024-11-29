@@ -3,7 +3,12 @@
     padding: 0;
 }
 
-.navbar {
+.play-regular {
+    font-family: 'Play', sans-serif;
+}
+  
+  .navbar {
+    background-color: white;
     height: 60px;
     width: 100%;
     position: sticky;
@@ -11,6 +16,8 @@
     align-items: center;
     justify-content: space-between;
     font-size: 25px;
+    top: 0;
+    z-index: 1;
 }
 
 .nav-wrapper-logo {
@@ -66,3 +73,25 @@ a:active{
     justify-content: flex;
     gap: 15px;
 }
+h1{
+color: white;
+position: absolute;
+top: 98%;
+left: 5%;
+font-size: 48px;
+}
+
+h4{
+    color: white;
+    position: absolute;
+    top: 95%;
+    left: 5%;
+    font-size: 18px;
+
+    }
+
+
+.video-background{
+ object-fit: cover;
+ position: relative;
+ }
